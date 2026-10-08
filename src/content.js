@@ -211,7 +211,7 @@ export const projects = [
     result: "完成多类内部知识效率 Agent 的端到端 PoC 验证，并沉淀平台选型、评测指标与 Badcase 归因方法。",
     tags: ["Dify / Coze", "LangChain", "Multimodal RAG", "Badcase Analysis"],
     image: "/yjy/assets/projects/caict-paper-search-workflow.png",
-    cardImage: "/yjy/assets/projects/caict-agent-workflow.png",
+    cardImage: "/yjy/assets/projects/caict-cover.png",
     cardImageFit: "cover",
     cardImagePosition: "center",
     imagePosition: "center",
