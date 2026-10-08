@@ -166,35 +166,20 @@ export const projects = [
         caption: "证据 02｜13 组 Only / Minus LoRA 注入位置消融及参数量、Precision、Recall 结果。",
       },
       {
-        src: "/yjy/assets/projects/sam3-lora-ablation-analysis.png",
-        alt: "SAM3 LoRA 消融分析记录",
-        caption: "证据 03｜对 TrE 等模块独立贡献与移除影响的实验归因记录。",
-      },
-      {
-        src: "/yjy/assets/projects/sam3-incremental-before-after.png",
-        alt: "SAM3 原模型与增量学习后模型检测对比",
-        caption: "证据 04｜原模型与增量学习模型在新增类别上的可视化检测结果。",
-      },
-      {
-        src: "/yjy/assets/projects/sam3-evaluation-plan.png",
-        alt: "SAM3 评测方法改进与数据优化计划",
-        caption: "证据 05｜固定阈值、召回与精度约束评测，以及负例质量和类别均衡优化记录。",
-      },
-      {
         src: "/yjy/assets/projects/sam3-expert-routing-architecture.png",
         alt: "SAM3 共享视觉主干与专家路由架构",
-        caption: "证据 06｜共享 Vision Backbone、父专家与 LoRA 子专家的分层路由方案。",
+        caption: "证据 03｜共享 Vision Backbone、父专家与 LoRA 子专家的分层路由方案。",
       },
       {
         src: "/yjy/assets/projects/sam3-application-scenarios.png",
         alt: "视觉算法业务场景与类别覆盖扩展记录",
-        caption: "证据 07｜应用场景中的算法数量与类别覆盖扩展记录，展示持续新增业务类别的现实需求。",
+        caption: "证据 04｜应用场景中的算法数量与类别覆盖扩展记录，展示持续新增业务类别的现实需求。",
       },
       {
         type: "video",
         src: "/yjy/assets/projects/sam3-application-scenarios.mp4",
         alt: "SAM3 相关视觉算法应用场景演示视频",
-        caption: "证据 08｜应用场景演示视频（约 44 秒），用于补充展示视觉算法在真实场景中的输出效果。",
+        caption: "证据 05｜应用场景演示视频（约 44 秒），用于补充展示视觉算法在真实场景中的输出效果。",
       },
     ],
   },
