@@ -14,7 +14,7 @@ export const profile = {
   nameEn: "Yingmeng Li",
   role: "AI 应用开发 / 多模态评测 / Agent & RAG",
   intro:
-    "中国传媒大学信息与通信工程硕士，聚焦多模态视频理解与 AI 应用开发。曾在 TeleAI、钉钉与 MiniMax 参与视觉大模型训练评测、数据闭环、多模态检索和 Agent 工作流验证。",
+    "中国传媒大学信息与通信工程硕士，聚焦多模态视频理解与 AI 应用开发。曾在 TeleAI、中国信通院与 MiniMax 参与视觉大模型训练评测、数据闭环、多模态检索和 Agent 工作流验证。",
   email: "liyingmengwork@163.com",
   phone: "16630692478",
   resume: "/yjy/assets/li-yingmeng-resume.pdf",
@@ -42,10 +42,10 @@ export const experiences = [
   },
   {
     period: "2025.07 - 2025.10",
-    company: "阿里巴巴·钉钉事业部",
-    team: "AI 智能助理团队",
+    company: "中国信息通信研究院",
+    team: "人工智能研究所",
     role: "AI Agent 开发实习生",
-    summary: "参与多模态检索、RAG 知识增强与 Agent 链路验证。",
+    summary: "参与 Agent 工作流、多模态 RAG 检索评测与 Badcase 定位。",
   },
   {
     period: "2024.12 - 2025.03",
@@ -200,18 +200,18 @@ export const projects = [
   },
   {
     index: "02",
-    slug: "dingtalk-agent-rag",
-    title: "内部知识效率类 Agent 与 RAG 工作流验证系统",
-    projectName: "内部知识效率类 Agent 与 RAG 工作流验证系统",
+    slug: "caict-agent-rag",
+    title: "内部知识办公 Agent 与多模态 RAG 评测系统",
+    projectName: "内部知识办公 Agent 与多模态 RAG 评测系统",
     detailLayout: "internship-case-study",
     category: "AI Agent · RAG · Workflow Validation",
-    period: "阿里巴巴钉钉 · 2025.07—2025.10",
+    period: "中国信息通信研究院 · 2025.07—2025.10",
     description:
       "围绕演讲稿、行业简报和论文检索等内部知识任务，验证从需求理解、知识检索到内容生成、结果校验与文档交付的端到端 Agent 工作流。",
     result: "完成多类内部知识效率 Agent 的端到端 PoC 验证，并沉淀平台选型、评测指标与 Badcase 归因方法。",
-    tags: ["Dify / Coze / 百炼", "LangChain", "RAG", "Badcase Analysis"],
-    image: "/yjy/assets/projects/dingtalk-paper-search-workflow.png",
-    cardImage: "/yjy/assets/projects/dingtalk-alibaba-cover.jpg",
+    tags: ["Dify / Coze", "LangChain", "Multimodal RAG", "Badcase Analysis"],
+    image: "/yjy/assets/projects/caict-paper-search-workflow.png",
+    cardImage: "/yjy/assets/projects/caict-agent-workflow.png",
     cardImageFit: "cover",
     cardImagePosition: "center",
     imagePosition: "center",
@@ -221,7 +221,7 @@ export const projects = [
     lead:
       "把复杂知识任务拆成可观察、可调试的 Agent 工作流，并用多模态 RAG 与分层评测定位路由、检索、生成和交付问题。",
     internship: {
-      company: "阿里巴巴钉钉",
+      company: "中国信息通信研究院",
       role: "AI Agent 开发实习生",
       period: "2025.07 - 2025.10",
     },
@@ -230,7 +230,7 @@ export const projects = [
     techStack: [
       "Dify",
       "Coze",
-      "阿里云百炼",
+      "低代码 Agent 平台",
       "LangChain",
       "Qwen 系列模型",
       "RAG",
@@ -244,7 +244,7 @@ export const projects = [
       "Badcase 分析",
     ],
     taskSummary: [
-      "参与 Dify、Coze 与阿里云百炼上的端到端工作流搭建与验证，梳理问答分支、知识库调用、内容生成、模型对比和结果交付节点。",
+      "参与 Dify、Coze 等低代码 Agent 平台上的端到端工作流搭建与验证，梳理问答分支、知识库调用、内容生成、模型对比和结果交付节点。",
       "重点负责多模态 RAG 检索评测与 Badcase 归因，包括四类 Query 的检索链路、候选融合与精排、分层指标设计，以及路由—检索—生成—交付四层问题定位和回归验证。核心目标是让方案能在统一用例下比较，让异常能落到具体环节。",
     ],
     actionHeading: "关键行动",
@@ -277,7 +277,7 @@ export const projects = [
       {
         title: "验证多 Agent 路由与多平台实现",
         detail:
-          "根据任务类型把请求路由至行业简报、演讲稿、事实核查或论文检索等垂直 Agent / 工作流，再汇总到统一校验与交付节点；在 Dify、Coze 和阿里云百炼中验证相近流程，比较问答分支、知识库接入、插件调用、节点调试和结果交付。该方案属于任务路由与工作流协同，不包装为具备自主规划和共享记忆的复杂 Multi-Agent 系统。",
+          "根据任务类型把请求路由至行业简报、演讲稿、事实核查或论文检索等垂直 Agent / 工作流，再汇总到统一校验与交付节点；在 Dify、Coze 等平台中验证相近流程，比较问答分支、知识库接入、插件调用、节点调试和结果交付。该方案属于任务路由与工作流协同，不包装为具备自主规划和共享记忆的复杂 Multi-Agent 系统。",
       },
     ],
     resultHeading: "PoC 结果与方法沉淀",
@@ -289,27 +289,27 @@ export const projects = [
     ],
     gallery: [
       {
-        src: "/yjy/assets/projects/dingtalk-workflow-overview-01.png",
+        src: "/yjy/assets/projects/caict-workflow-overview-01.png",
         alt: "复杂 Agent 工作流前半段总览",
         caption: "证据 01｜脱敏后的复杂工作流前半段，展示输入、分支路由、知识调用与多条处理链路。",
       },
       {
-        src: "/yjy/assets/projects/dingtalk-workflow-overview-02.png",
+        src: "/yjy/assets/projects/caict-workflow-overview-02.png",
         alt: "复杂 Agent 工作流后半段总览",
         caption: "证据 02｜工作流后半段的生成、校验、条件分支与结果汇聚节点。",
       },
       {
-        src: "/yjy/assets/projects/dingtalk-multi-agent-routing.png",
+        src: "/yjy/assets/projects/caict-multi-agent-routing.png",
         alt: "多任务 Agent 路由与统一交付工作流",
         caption: "证据 03｜按任务类型进入垂直工作流，再汇总至统一校验与交付节点的协同结构。",
       },
       {
-        src: "/yjy/assets/projects/dingtalk-paper-knowledge-base.png",
+        src: "/yjy/assets/projects/caict-paper-knowledge-base.png",
         alt: "按会议划分的论文知识库检索工作流",
         caption: "证据 04｜按顶会来源建立知识库并行检索候选论文，再聚合生成结果的链路。",
       },
       {
-        src: "/yjy/assets/projects/dingtalk-paper-search-fallback.png",
+        src: "/yjy/assets/projects/caict-paper-search-fallback.png",
         alt: "论文检索与联网解析替代工作流",
         caption: "证据 05｜会议路由、候选输出、联网检索与论文解析组成的替代链路验证。",
       },
